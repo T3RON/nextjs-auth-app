@@ -1,0 +1,101 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  &.primary {
+    background-color: #0070f3;
+    color: white;
+    
+    &:hover:not(:disabled) {
+      background-color: #0060df;
+    }
+  }
+  
+  &.secondary {
+    background-color: #f5f5f5;
+    color: #333;
+    
+    &:hover:not(:disabled) {
+      background-color: #e5e5e5;
+    }
+  }
+  
+  &.outline {
+    background-color: transparent;
+    color: #0070f3;
+    border: 1px solid #0070f3;
+    
+    &:hover:not(:disabled) {
+      background-color: rgba(0, 112, 243, 0.05);
+    }
+  }
+  
+  &.small {
+    height: 32px;
+    padding: 0 12px;
+    font-size: 14px;
+  }
+  
+  &.medium {
+    height: 40px;
+    padding: 0 16px;
+    font-size: 16px;
+  }
+  
+  &.large {
+    height: 48px;
+    padding: 0 24px;
+    font-size: 18px;
+  }
+  
+  &.fullWidth {
+    width: 100%;
+  }
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.loadingDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+  opacity: 0.6;
+  animation: loadingAnimation 1.4s infinite ease-in-out both;
+  
+  &:nth-child(1) {
+    animation-delay: -0.32s;
+  }
+  
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+}
+
+@keyframes loadingAnimation {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}

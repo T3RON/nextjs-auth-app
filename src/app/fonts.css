@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* YekanBakh Font Faces */
+@font-face {
+  font-display: swap;
+  font-family: 'YekanBakh';
+  font-style: normal;
+  font-weight: 100;
+  src: url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Regular.woff2') format('woff2'),
+       url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'YekanBakh';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.woff2') format('woff2'),
+       url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'YekanBakh';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Regular.woff2') format('woff2'),
+       url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'YekanBakh';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.woff2') format('woff2'),
+       url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'YekanBakh';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.woff2') format('woff2'),
+       url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'YekanBakh';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.woff2') format('woff2'),
+       url('https://webassets.cafebazaar.ir/fonts/YekanBakh/YekanBakh-Medium.ttf') format('truetype');
+}
